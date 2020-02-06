@@ -8,6 +8,62 @@
 
 /* Begin PBXBuildFile section */
 		02BED1BB21DD20D20093FB47 /* ConnectableContramap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9CE80421197FE000DB79A7 /* ConnectableContramap.swift */; };
+		2C9180BA23EB01E000277A43 /* AtomicBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D54D0EF21C11362002AAC19 /* AtomicBool.swift */; };
+		2C9180BB23EB01E000277A43 /* Mobius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287C3209995410043B530 /* Mobius.swift */; };
+		2C9180BC23EB01E000277A43 /* BlockingFunctionConnectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F1039210F5E9A0067193C /* BlockingFunctionConnectable.swift */; };
+		2C9180BD23EB01E000277A43 /* AnonymousDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287BF209995410043B530 /* AnonymousDisposable.swift */; };
+		2C9180BE23EB01E000277A43 /* AnyEventSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A369921107D2600279C7D /* AnyEventSource.swift */; };
+		2C9180BF23EB01E000277A43 /* MobiusLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287B8209995410043B530 /* MobiusLoop.swift */; };
+		2C9180C023EB01E000277A43 /* Consumer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287B7209995410043B530 /* Consumer.swift */; };
+		2C9180C123EB01E000277A43 /* MobiusController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287C8209995410043B530 /* MobiusController.swift */; };
+		2C9180C223EB01E000277A43 /* CompositeDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287BE209995410043B530 /* CompositeDisposable.swift */; };
+		2C9180C323EB01E000277A43 /* Locking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287CA209995410043B530 /* Locking.swift */; };
+		2C9180C423EB01E000277A43 /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287BB209995410043B530 /* First.swift */; };
+		2C9180C523EB01E000277A43 /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287BD209995410043B530 /* Disposable.swift */; };
+		2C9180C623EB01E000277A43 /* Next.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287B5209995410043B530 /* Next.swift */; };
+		2C9180C723EB01E000277A43 /* MobiusLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287C9209995410043B530 /* MobiusLogger.swift */; };
+		2C9180C823EB01E000277A43 /* NoEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287C5209995410043B530 /* NoEffect.swift */; };
+		2C9180C923EB01E000277A43 /* CompositeEventSourceBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDF54BF229BDB4700D05861 /* CompositeEventSourceBuilder.swift */; };
+		2C9180CA23EB01E000277A43 /* ConsumerConnectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F103E210F5EE40067193C /* ConsumerConnectable.swift */; };
+		2C9180CB23EB01E000277A43 /* ClosureConnectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F1042210F5F590067193C /* ClosureConnectable.swift */; };
+		2C9180CC23EB01E000277A43 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287B6209995410043B530 /* Connection.swift */; };
+		2C9180CD23EB01E000277A43 /* BrokenConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287C1209995410043B530 /* BrokenConnection.swift */; };
+		2C9180CE23EB01E000277A43 /* EffectRouterBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9346320D2A46A00A1FE3A /* EffectRouterBuilder.swift */; };
+		2C9180CF23EB01E000277A43 /* ActionConnectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F103B210F5EBC0067193C /* ActionConnectable.swift */; };
+		2C9180D023EB01E000277A43 /* MobiusHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287B9209995410043B530 /* MobiusHooks.swift */; };
+		2C9180D123EB01E000277A43 /* EventProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287C6209995410043B530 /* EventProcessor.swift */; };
+		2C9180D223EB01E000277A43 /* ConnectablePublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287BA209995410043B530 /* ConnectablePublisher.swift */; };
+		2C9180D323EB01E000277A43 /* MergedEventSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A36952110783100279C7D /* MergedEventSource.swift */; };
+		2C9180D423EB01E000277A43 /* EventSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287C0209995410043B530 /* EventSource.swift */; };
+		2C9180D523EB01E000277A43 /* Connectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B237EB9209C4F3C00764576 /* Connectable.swift */; };
+		2C9180E023EB01EA00277A43 /* AtomicBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D54D0EF21C11362002AAC19 /* AtomicBool.swift */; };
+		2C9180E123EB01EA00277A43 /* MobiusController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287C8209995410043B530 /* MobiusController.swift */; };
+		2C9180E223EB01EA00277A43 /* MobiusHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287B9209995410043B530 /* MobiusHooks.swift */; };
+		2C9180E323EB01EA00277A43 /* AnyEventSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A369921107D2600279C7D /* AnyEventSource.swift */; };
+		2C9180E423EB01EA00277A43 /* ConnectablePublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287BA209995410043B530 /* ConnectablePublisher.swift */; };
+		2C9180E523EB01EA00277A43 /* Consumer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287B7209995410043B530 /* Consumer.swift */; };
+		2C9180E623EB01EA00277A43 /* NoEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287C5209995410043B530 /* NoEffect.swift */; };
+		2C9180E723EB01EA00277A43 /* EventProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287C6209995410043B530 /* EventProcessor.swift */; };
+		2C9180E823EB01EA00277A43 /* Next.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287B5209995410043B530 /* Next.swift */; };
+		2C9180E923EB01EA00277A43 /* MobiusLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287C9209995410043B530 /* MobiusLogger.swift */; };
+		2C9180EA23EB01EA00277A43 /* BrokenConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287C1209995410043B530 /* BrokenConnection.swift */; };
+		2C9180EB23EB01EA00277A43 /* MobiusLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287B8209995410043B530 /* MobiusLoop.swift */; };
+		2C9180EC23EB01EA00277A43 /* EventSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287C0209995410043B530 /* EventSource.swift */; };
+		2C9180ED23EB01EA00277A43 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287B6209995410043B530 /* Connection.swift */; };
+		2C9180EE23EB01EA00277A43 /* EffectRouterBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9346320D2A46A00A1FE3A /* EffectRouterBuilder.swift */; };
+		2C9180EF23EB01EA00277A43 /* CompositeEventSourceBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDF54BF229BDB4700D05861 /* CompositeEventSourceBuilder.swift */; };
+		2C9180F023EB01EA00277A43 /* ConsumerConnectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F103E210F5EE40067193C /* ConsumerConnectable.swift */; };
+		2C9180F123EB01EA00277A43 /* ClosureConnectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F1042210F5F590067193C /* ClosureConnectable.swift */; };
+		2C9180F223EB01EA00277A43 /* Connectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B237EB9209C4F3C00764576 /* Connectable.swift */; };
+		2C9180F323EB01EA00277A43 /* AnonymousDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287BF209995410043B530 /* AnonymousDisposable.swift */; };
+		2C9180F423EB01EA00277A43 /* ActionConnectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F103B210F5EBC0067193C /* ActionConnectable.swift */; };
+		2C9180F523EB01EA00277A43 /* CompositeDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287BE209995410043B530 /* CompositeDisposable.swift */; };
+		2C9180F623EB01EA00277A43 /* BlockingFunctionConnectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1F1039210F5E9A0067193C /* BlockingFunctionConnectable.swift */; };
+		2C9180F723EB01EA00277A43 /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287BD209995410043B530 /* Disposable.swift */; };
+		2C9180F823EB01EA00277A43 /* Mobius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287C3209995410043B530 /* Mobius.swift */; };
+		2C9180F923EB01EA00277A43 /* MergedEventSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A36952110783100279C7D /* MergedEventSource.swift */; };
+		2C9180FA23EB01EA00277A43 /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287BB209995410043B530 /* First.swift */; };
+		2C9180FB23EB01EA00277A43 /* Locking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB287CA209995410043B530 /* Locking.swift */; };
 		2D54D0F021C11362002AAC19 /* AtomicBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D54D0EF21C11362002AAC19 /* AtomicBool.swift */; };
 		2D54D0F121C1167C002AAC19 /* AtomicBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D54D0EF21C11362002AAC19 /* AtomicBool.swift */; };
 		2DDF54C0229BDB4800D05861 /* CompositeEventSourceBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDF54BF229BDB4700D05861 /* CompositeEventSourceBuilder.swift */; };
@@ -217,6 +273,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		2C9180FD23EB01EA00277A43 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2DF4C2F320DBDD4700A4B6DE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,6 +321,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2C9180DC23EB01E000277A43 /* MobiusCoreWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MobiusCoreWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C91810123EB01EA00277A43 /* libMobiusCoreWatch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMobiusCoreWatch.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2FE60F20625E76002DFD69 /* Mobius.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Mobius.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2D54D0EF21C11362002AAC19 /* AtomicBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicBool.swift; sourceTree = "<group>"; };
 		2DDF54BF229BDB4700D05861 /* CompositeEventSourceBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompositeEventSourceBuilder.swift; sourceTree = "<group>"; };
@@ -362,6 +429,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2C9180D623EB01E000277A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C9180FC23EB01EA00277A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2DF4C2F220DBDD4700A4B6DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -526,6 +607,8 @@
 				5B80EDCF2125A18800F87129 /* MobiusNimble.framework */,
 				5B80EDD72125A18800F87129 /* MobiusNimbleTests.xctest */,
 				5B80EDF52125A32200F87129 /* libMobiusNimble.a */,
+				2C9180DC23EB01E000277A43 /* MobiusCoreWatch.framework */,
+				2C91810123EB01EA00277A43 /* libMobiusCoreWatch.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -780,6 +863,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2C9180D723EB01E000277A43 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5B3AA32F20975248003F35C3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -811,6 +901,41 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2C9180B823EB01E000277A43 /* MobiusCoreWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C9180D923EB01E000277A43 /* Build configuration list for PBXNativeTarget "MobiusCoreWatch" */;
+			buildPhases = (
+				2C9180B923EB01E000277A43 /* Sources */,
+				2C9180D623EB01E000277A43 /* Frameworks */,
+				2C9180D723EB01E000277A43 /* Headers */,
+				2C9180D823EB01E000277A43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobiusCoreWatch;
+			productName = MobiusCore;
+			productReference = 2C9180DC23EB01E000277A43 /* MobiusCoreWatch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2C9180DE23EB01EA00277A43 /* MobiusCoreWatch-static-watchos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C9180FE23EB01EA00277A43 /* Build configuration list for PBXNativeTarget "MobiusCoreWatch-static-watchos" */;
+			buildPhases = (
+				2C9180DF23EB01EA00277A43 /* Sources */,
+				2C9180FC23EB01EA00277A43 /* Frameworks */,
+				2C9180FD23EB01EA00277A43 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MobiusCoreWatch-static-watchos";
+			productName = "MobiusCore-static-ios";
+			productReference = 2C91810123EB01EA00277A43 /* libMobiusCoreWatch.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		2DF4C2F420DBDD4700A4B6DE /* MobiusCore-static-ios */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DF4C2FB20DBDD4700A4B6DE /* Build configuration list for PBXNativeTarget "MobiusCore-static-ios" */;
@@ -1108,11 +1233,20 @@
 				5B80EDCE2125A18800F87129 /* MobiusNimble */,
 				5B80EDF42125A32200F87129 /* MobiusNimble-static-ios */,
 				5B80EDD62125A18800F87129 /* MobiusNimbleTests */,
+				2C9180B823EB01E000277A43 /* MobiusCoreWatch */,
+				2C9180DE23EB01EA00277A43 /* MobiusCoreWatch-static-watchos */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2C9180D823EB01E000277A43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5B3AA33020975248003F35C3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1172,6 +1306,76 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2C9180B923EB01E000277A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C9180BA23EB01E000277A43 /* AtomicBool.swift in Sources */,
+				2C9180BB23EB01E000277A43 /* Mobius.swift in Sources */,
+				2C9180BC23EB01E000277A43 /* BlockingFunctionConnectable.swift in Sources */,
+				2C9180BD23EB01E000277A43 /* AnonymousDisposable.swift in Sources */,
+				2C9180BE23EB01E000277A43 /* AnyEventSource.swift in Sources */,
+				2C9180BF23EB01E000277A43 /* MobiusLoop.swift in Sources */,
+				2C9180C023EB01E000277A43 /* Consumer.swift in Sources */,
+				2C9180C123EB01E000277A43 /* MobiusController.swift in Sources */,
+				2C9180C223EB01E000277A43 /* CompositeDisposable.swift in Sources */,
+				2C9180C323EB01E000277A43 /* Locking.swift in Sources */,
+				2C9180C423EB01E000277A43 /* First.swift in Sources */,
+				2C9180C523EB01E000277A43 /* Disposable.swift in Sources */,
+				2C9180C623EB01E000277A43 /* Next.swift in Sources */,
+				2C9180C723EB01E000277A43 /* MobiusLogger.swift in Sources */,
+				2C9180C823EB01E000277A43 /* NoEffect.swift in Sources */,
+				2C9180C923EB01E000277A43 /* CompositeEventSourceBuilder.swift in Sources */,
+				2C9180CA23EB01E000277A43 /* ConsumerConnectable.swift in Sources */,
+				2C9180CB23EB01E000277A43 /* ClosureConnectable.swift in Sources */,
+				2C9180CC23EB01E000277A43 /* Connection.swift in Sources */,
+				2C9180CD23EB01E000277A43 /* BrokenConnection.swift in Sources */,
+				2C9180CE23EB01E000277A43 /* EffectRouterBuilder.swift in Sources */,
+				2C9180CF23EB01E000277A43 /* ActionConnectable.swift in Sources */,
+				2C9180D023EB01E000277A43 /* MobiusHooks.swift in Sources */,
+				2C9180D123EB01E000277A43 /* EventProcessor.swift in Sources */,
+				2C9180D223EB01E000277A43 /* ConnectablePublisher.swift in Sources */,
+				2C9180D323EB01E000277A43 /* MergedEventSource.swift in Sources */,
+				2C9180D423EB01E000277A43 /* EventSource.swift in Sources */,
+				2C9180D523EB01E000277A43 /* Connectable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C9180DF23EB01EA00277A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C9180E023EB01EA00277A43 /* AtomicBool.swift in Sources */,
+				2C9180E123EB01EA00277A43 /* MobiusController.swift in Sources */,
+				2C9180E223EB01EA00277A43 /* MobiusHooks.swift in Sources */,
+				2C9180E323EB01EA00277A43 /* AnyEventSource.swift in Sources */,
+				2C9180E423EB01EA00277A43 /* ConnectablePublisher.swift in Sources */,
+				2C9180E523EB01EA00277A43 /* Consumer.swift in Sources */,
+				2C9180E623EB01EA00277A43 /* NoEffect.swift in Sources */,
+				2C9180E723EB01EA00277A43 /* EventProcessor.swift in Sources */,
+				2C9180E823EB01EA00277A43 /* Next.swift in Sources */,
+				2C9180E923EB01EA00277A43 /* MobiusLogger.swift in Sources */,
+				2C9180EA23EB01EA00277A43 /* BrokenConnection.swift in Sources */,
+				2C9180EB23EB01EA00277A43 /* MobiusLoop.swift in Sources */,
+				2C9180EC23EB01EA00277A43 /* EventSource.swift in Sources */,
+				2C9180ED23EB01EA00277A43 /* Connection.swift in Sources */,
+				2C9180EE23EB01EA00277A43 /* EffectRouterBuilder.swift in Sources */,
+				2C9180EF23EB01EA00277A43 /* CompositeEventSourceBuilder.swift in Sources */,
+				2C9180F023EB01EA00277A43 /* ConsumerConnectable.swift in Sources */,
+				2C9180F123EB01EA00277A43 /* ClosureConnectable.swift in Sources */,
+				2C9180F223EB01EA00277A43 /* Connectable.swift in Sources */,
+				2C9180F323EB01EA00277A43 /* AnonymousDisposable.swift in Sources */,
+				2C9180F423EB01EA00277A43 /* ActionConnectable.swift in Sources */,
+				2C9180F523EB01EA00277A43 /* CompositeDisposable.swift in Sources */,
+				2C9180F623EB01EA00277A43 /* BlockingFunctionConnectable.swift in Sources */,
+				2C9180F723EB01EA00277A43 /* Disposable.swift in Sources */,
+				2C9180F823EB01EA00277A43 /* Mobius.swift in Sources */,
+				2C9180F923EB01EA00277A43 /* MergedEventSource.swift in Sources */,
+				2C9180FA23EB01EA00277A43 /* First.swift in Sources */,
+				2C9180FB23EB01EA00277A43 /* Locking.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2DF4C2F120DBDD4700A4B6DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1421,6 +1625,74 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2C9180DA23EB01E000277A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C12F78222F225500DC4F9E /* iOS-Framework.xcconfig */;
+			buildSettings = {
+				ARCHS = armv7k;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "MobiusCore copy-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spotify.MobiusCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C9180DB23EB01E000277A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C12F78222F225500DC4F9E /* iOS-Framework.xcconfig */;
+			buildSettings = {
+				ARCHS = armv7k;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "MobiusCore copy-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spotify.MobiusCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C9180FF23EB01EA00277A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C12F79222F225500DC4F9E /* iOS-StaticLibrary.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = MobiusCoreWatch;
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				VALID_ARCHS = "arm64_32 armv7k i386";
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		2C91810023EB01EA00277A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C12F79222F225500DC4F9E /* iOS-StaticLibrary.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = MobiusCoreWatch;
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				VALID_ARCHS = "arm64_32 armv7k i386";
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
 		2D9A2FB0205C06FB00B1A332 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 69C12F76222F223700DC4F9E /* Debug.xcconfig */;
@@ -1814,6 +2086,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2C9180D923EB01E000277A43 /* Build configuration list for PBXNativeTarget "MobiusCoreWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C9180DA23EB01E000277A43 /* Debug */,
+				2C9180DB23EB01E000277A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C9180FE23EB01EA00277A43 /* Build configuration list for PBXNativeTarget "MobiusCoreWatch-static-watchos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C9180FF23EB01EA00277A43 /* Debug */,
+				2C91810023EB01EA00277A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D9A2FAF205C06FA00B1A332 /* Build configuration list for PBXProject "Mobius" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

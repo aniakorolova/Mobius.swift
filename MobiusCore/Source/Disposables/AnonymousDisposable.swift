@@ -20,7 +20,7 @@
 import Foundation
 
 /// The `AnonymousDisposable` class implements a `Disposable` type that disposes of resources via a closure.
-public class AnonymousDisposable: MobiusCore.Disposable {
+public class AnonymousDisposable: Disposable {
     /// The closure which disposes of the object.
     private var disposer: (() -> Void)?
     private let lock = NSRecursiveLock()

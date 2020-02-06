@@ -33,7 +33,7 @@ public class CompositeDisposable {
     }
 }
 
-extension CompositeDisposable: MobiusCore.Disposable {
+extension CompositeDisposable: Disposable {
     /// Dispose function disposes all of the internal disposables
     public func dispose() {
         lock.synchronized {
